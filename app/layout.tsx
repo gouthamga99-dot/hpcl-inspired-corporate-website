@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   openGraph: { type: "website", title: "Northstar Energy Group", description: "Independent energy, considered for tomorrow.", siteName: "Northstar Energy Group" },
   twitter: { card: "summary_large_image", title: "Northstar Energy Group", description: "Independent energy, considered for tomorrow." },
   robots: { index: true, follow: true },
+  verification: { google: "pUBx2R-vedHE10NqbN-TkeAipsnXurQ08Icj4qQZAjY" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
